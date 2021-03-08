@@ -1,0 +1,110 @@
+*{
+    font-family:monospace;
+    margin:0;
+    padding:0;
+} 
+/*SELECTOR*/
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #52BE80 ;
+    text-align: center;
+   
+}
+section{
+    color: black; /*cambia de color el texto*/
+    text-align: left;/*centra el texto*/
+    font-size: 30px/*cambia el tamaño del texto*/
+    font-family: sans-serif;/*cambia la fuente del 
+    texto*/
+    width: 1000px;
+    margin: 25px auto;
+    padding: 15px 0px 15px 0px; 
+    background-color:antiquewhite;
+}
+
+h2{
+    color:mediumvioletred;
+    text-align:left;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: auto;
+    padding: 0px 0px 15px 0px;
+    
+}
+
+.tabla_1{
+    color:black;
+    font-size:16px;
+    font-family: sans-serif;
+    background-color:#EDBB99;
+    border: 5px solid #D35400;
+    border: 5px solid #D35400 ;   
+}
+
+.titulo_tabla{
+    
+    color:black;
+    text-align:center;
+    font-size: 17px;
+    font-family:inherit;
+    background-color: #E59866 ;
+    border: 5px solid #E59866;
+    
+}
+.tablas{
+    color:black;
+    font-size:15px;
+    background-color:#F5CBA7;
+    border: 5px solid #D35400;
+    border-radius: 5px;
+}
+
+.propiedad_1{
+    background-color:#E59866;
+}
+.propiedad_2{
+    background-color:#E59866;
+}
+
+.Color_etiqueta{
+    background-color: #E59866;
+}
+.img{
+    width: 298px;
+    height: 155px;
+    padding: 0px 100px 0px 0px;
+}
+.img_2{
+     width: 298px;
+    height: 100px;
+    padding: 0px 100px 0px 0px;
+}
+.img_3{
+    width: 220px;
+    height: 155px;
+    padding: 0px 130px 0px 0px;
+}
+
+/*-------------------------*/
+.sec_listados{
+    color:black;    
+    text-align:left;
+    font-size:15px;
+    font-family:sans-serif;
+}
+
+section ul{
+    color:black;
+    text-align:left;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 15px 0px 0px 15px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #138D75;
+    text-align: center;
+}
