@@ -14,44 +14,57 @@
 }
 .titulo1{
     font-size: 50px;
-  
 }
 .titulo2{
-
     font-size: 50px;
 }
 .titulo3{
-
     font-size: 50px;
 }
 .banner_index > .caja_izquierda > h2{
     font-size: 40px;
     color: black;
 }
-
 .btn_1:hover{
    background-color: #54b682;
 background-image: -webkit-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: -o-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
 
-    width: 120px;  
-    background-color: aquamarine;
+  /*  width: 120px;  
+    background-color: aquamarine;*/
     color: #fff;
     transition: 0.3s;
 }
 .btn_1{
-    padding: 20px 30px; 0px; 0px;
+    padding: 10px 20px; 0px; 0px;
+    background-color: background-color: #79f0b0;
+background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    
 }
 .btn_2{
-    padding: 20px;
+    padding: 10px;
+    background-color: background-color: #79f0b0;
+background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
 }
 .btn_2:hover{
    background-color: #54b682;
 background-image: -webkit-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: -o-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
-    width: 120px;
+  /*  width: 120px;*/
     color: #fff;
     transition: 0.3s;
 }
@@ -61,7 +74,6 @@ background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
     /** COLOR DEL BOTON **/
     background-color: #F4D03F;
     background-image: linear-gradient(146deg, #F4D03F 0%, #16A085 100%);
-
     width: 80px;
     padding: 10px 40px 10px 40px;
     border-radius: 20px;
@@ -84,4 +96,5 @@ background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
    color: #fff;
    transition: 0.3s;
 }
+
 

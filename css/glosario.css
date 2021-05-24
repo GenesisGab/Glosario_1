@@ -1,35 +1,52 @@
 *{  
     margin:0;
     padding:0;
-    font-family: monospace;
+    font-family: sans-serif;
 } 
-
 .btn_1:hover{
    background-color: #54b682;
 background-image: -webkit-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: -o-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
 
-    width: 120px;  
-    background-color: aquamarine;
+  /*  width: 120px;  
+    background-color: aquamarine;*/
     color: #fff;
     transition: 0.3s;
 }
 .btn_1{
-    padding: 20px 30px; 0px; 0px;
+    padding: 10px 20px; 0px; 0px;
+    background-color: background-color: #79f0b0;
+background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    
 }
 .btn_2{
-    padding: 20px;
+    padding: 10px;
+    background-color: background-color: #79f0b0;
+background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
 }
 .btn_2:hover{
    background-color: #54b682;
 background-image: -webkit-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: -o-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
 background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
-    width: 120px;
+  /*  width: 120px;*/
     color: #fff;
     transition: 0.3s;
 }
+
 /*SELECTOR*/
 .cabecera{
     width: 100%;
@@ -95,7 +112,7 @@ th, td{
  tr:nth-child(even){
      background-color: #F2C0A2;
 }
-/*-------COLOR DE LAS TABLAS--------*/
+/*-------COLOR DE LAS TABLAS Y TAMAÑO--------*/
 .tabla_1{
     color: black;
     font-size: 16px;
@@ -122,15 +139,15 @@ th, td{
     border: 5px solid #D35400;
     border-radius: 5px;
     width: 90%;
-    margin-left: 33px;
+  /*  margin-left: 33px;*/
 }
 .tablas3{
     color:black;
     font-size:15px;
     background-color:#F5CBA7;
     border: 5px solid #D35400;
-    
     border-radius: 5px;
+    width: 65%;
 }
 .tablas4{
     color:black;
@@ -146,7 +163,6 @@ th, td{
     background-color:#E59866;
     text-align: center;
 }
-
 .Color_etiqueta{
     background-color: #E59866;
     font-size: 16;
@@ -159,7 +175,6 @@ th, td{
     background-image: linear-gradient(147deg, #dbcc67 0%, #dda6a6 74%);
     transition: 0.3s;
 }
-
 /*----- IMAGENES -------*/
 .img{
     width: 299px;
@@ -179,58 +194,45 @@ th, td{
 .img_2{
     width: 298px;
     height: 100px;
-    padding: 10px 15px 0px 0px;
+    padding: 25px 15px 0px 0px;
 }
 .imgTabla{
     width: 240px;
     height: 175px;
     padding: 50px 10px 0px 30px;
-
 }
-
 .imgTexto{
      width: 299px;
     height: 185px;
     padding: 0px 100px 0px 0px;
 }
 .imgList{
-    width: 290px;
+    width: 250px;
     height: 170px;
-    padding: 10px 20px 0px 0px;
+    padding: 20px 20px 0px 0px;
 }
 .imgCss{
     width: 300px;
     height: auto;
     padding: 0px 100px 0px 290px;
 }
-
 .imgCsText{
     width: 299px;
     height: 185px;
     padding: 0px 10px 0px 0px;
     margin-top: 80px;
 }
-.contenedor div:hover{
-    background-color: background-color: #dbcc67;
-    background-image: -webkit-linear-gradient(57deg, #dbcc67 0%, #dda6a6 74%);
-    background-image: -o-linear-gradient(57deg, #dbcc67 0%, #dda6a6 74%);
-    background-image: linear-gradient(147deg, #dbcc67 0%, #dda6a6 74%);
-    
-}
 /**********PROPIEDADES MAQUETACIÓN************/
 .maquet{
     text-align: center;
 }
-
 /************** FLEX-BOX********************/
 .imgFlex{
     width: 300px;
     height: auto;
     padding: 0px 0px 10px 310px;
 }
-
-/*-------------------------*/
-
+/*----------footer-----------*/
 footer{
     width: 100%;
     height: 100px;

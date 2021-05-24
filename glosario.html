@@ -15,11 +15,11 @@
 <body>
   
  <header>
-      <div>
+    <!-- <div>
           <img src="img/logoGAB.png" class="logo">
-      </div>
-      <h1 class="TituloH">Gaby</h1>
-     
+      </div>-->
+      <h1 class="TituloH">🦋Gaby</h1>
+ 
       
       <ul class="nav">
           <li>
@@ -31,7 +31,6 @@
       </ul>
       
     </header>
-    
   
     <section class="tituloHeader">
         <div class="cabecera">
@@ -84,6 +83,7 @@
           
     </section>
     
+    <!--TEXTO-->
     <section class="sec_listados">
         <h1>ETIQUETAS HTML</h1>
          <!-- imagen -->
@@ -106,7 +106,7 @@
              <tr>
                 <td>&lt;a&gt; &lt;/a&gt;</td>
                 <td>Se utiliza para incluir enlaces hacia otras páginas</td>
-                <td>color text-decoration font-size font-family</td>
+                <td>color || text-decoration || font-size || font-family</td>
              </tr>
              
              <tr>
@@ -119,22 +119,25 @@
                 <td>&lt;h1&gt;&lt;/h1&gt;&lt;h6&gt;&lt;/h6&gt;
                 </td>
                 <td>Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</td>
-                <td rowspan="3">color || background-color  ||  font-size font-family</td>
+                <td>color || font-size || background-color  || text-align || text-decoration || font-family</td>
              </tr>
              
               <tr>
                   <td>&lt;p&gt; &lt;/p&gt;</td>
                   <td>Se utiliza para colocar un parrafo</td>
+                  <td>color || font-size || background-color  || text-align || text-decoration || font-family</td>
              </tr>
              
              <tr>
                 <td>&lt;title &gt; &lt;/title&gt;</td>
                 <td>Define un titulo en el documento</td>
+                <td>color || font-size || background-color  || text-align || text-decoration || font-family</td>
              </tr>
            </table>
                    
     </section>
-       
+     
+    <!--FORMULARIOS-->  
     <section class="sec_listados">
           
            <!-- La etiqueta img se utiliza para colocar una imagen-->
@@ -159,22 +162,25 @@
              
              <tr>
                  <td>&lt;label&gt;&lt;/label&gt;</td>
-                 <td>Define el rótulo para un elemento</td>
-                 <td rowspan="3">font-family || font-size || color || background-color</td>
+                 <td>Define el rótulo para un elemento &lt;input&gt;</td>
+                 <td>font-family || font-size || color || background-color</td>
              </tr>
              
              <tr>
               <td>&lt;input&gt;&lt;/input&gt;</td>
               <td>Define un control de entrada de texto </td>
+              <td>background-color || margin || border || width || height || font-family || font-size</td>
              </tr>
              
              <tr>
               <td>&lt;button&gt;&lt;/button&gt;</td>
               <td>Define un botón</td>
+              <td>margin || padding || width || height || bordeer || font-size font-family || background-color</td>
              </tr>
            </table>
     </section>
     
+    <!--IMAGENES-->
     <section class="sec_listados">
        
         <!-- La etiqueta img se utiliza para colocar una imagen-->
@@ -191,17 +197,20 @@
                 <td class=Color_etiqueta>ETIQUETAS</td>
                 <td class=Color_etiqueta>DEFINICIÓN</td>
                 <td class="Color_etiqueta">PROPIEDADES</td>
+                <td class="Color_etiqueta">atributos</td>
             </tr>
             
             <!--DEFINICION DE PROPIEDADES-->
              <tr>
                  <td>&lt;img&gt; &lt;/img&gt;</td>
-                 <td>Define una imagen</td>
-                 <td>width || height</td>
+                 <td>Coloca una imagen</td>
+                 <td>width || height || border || border-radius || margin || padding</td>
+                 <td>alt, src, usemap, ismap, width, height</td>
              </tr>
         </table>
     </section>
     
+    <!--MAQUETACIÓN-->
     <section class="sec_listados">
         
         <!-- La etiqueta img se utiliza para colocar una imagen-->
@@ -221,34 +230,43 @@
             
             <!--DEFINICION DE PROPIEDADES-->
              <tr>
-                 <td>&lt;body&gt; &lt;/body&gt;</td>
+                 <td>&lt;body&gt;&lt;/body&gt;</td>
                  <td>Define el cuerpo del documento</td>
-                 <td rowspan="5" class="maquet">heigh || width || background-color || margin</td>
+                 <td>heigh || width || background-color || margin</td>
              </tr>
              
              <tr>
-                 <td>&lt;div&gt; &lt;/div&gt;</td>
+                 <td>&lt;div&gt;&lt;/div&gt;</td>
                  <td>Define una sección en un documento</td>
+                 <td>width || height || margin || padding || display ||
+                  justify-content || flex-direction || background-color</td>
              </tr>
              
              <tr>
-                 <td>&lt;footer&gt; &lt;/footer&gt;</td>
+                 <td>&lt;footer&gt;&lt;/footer&gt;</td>
                  <td>Define el pie de página de un documento</td>
+                 <td>width || height || margin || padding || display ||
+                  justify-content || flex-direction || background-color</td>
              </tr>
              
              <tr>
-                 <td>&lt;header&gt; &lt;/header&gt;</td>
+                 <td>&lt;header&gt;&lt;/header&gt;</td>
                  <td>Define la sección de encabezado del documento</td>
+                 <td>width || height || margin || padding || display ||
+                  justify-content || flex-direction || background-color</td>
              </tr>
              
              <tr>
-                 <td>&lt;section&gt; &lt;/section&gt;</td>
+                 <td>&lt;section&gt;&lt;/section&gt;</td>
                  <td>Define una sección de un documento</td>
+                 <td>width || height || margin || padding || display ||
+                  justify-content || flex-direction || background-color</td>
              </tr>
              
         </table>
     </section>
     
+    <!--LISTAS-->
     <section class="sec_listados">
         
          <!-- La etiqueta img se utiliza para colocar una imagen-->
@@ -270,19 +288,20 @@
              <tr>
                  <td>&lt;ol&gt; &lt;/ol&gt;</td>
                  <td> Define una lista ordenada</td>
-                 <td rowspan="3">list-style || color || text-align</td>
+                 <td>list-style || color || text-align || font-family || font-size</td>
              </tr>
              
              <tr>
               <td>&lt;ul&gt;&lt;/ul&gt;</td>
               <td>Define una lista desordenada</td>
+              <td>list-style || color || text-align || font-family || font-size</td>
              
              </tr>
              
              <tr>
               <td>&lt;li&gt; &lt;/li&gt;</td>
               <td>Define los elementos de una lista</td>
-              
+              <td>list-style || color || text-align || font-family || font-size</td>
              </tr>
         </table>
         <br>
@@ -290,6 +309,7 @@
         
     </section>
     
+    <!--TABLAS-->
     <section class="sec_listados">
        
         <!-- La etiqueta img se utiliza para colocar una imagen-->
@@ -311,30 +331,61 @@
              <tr>
               <td>&lt;table&gt;&lt;/table&gt;</td>
               <td>Define una tabla</td>
-              <td>text-align || height || width || Border || padding || background-color</td>
+              <td>text-align || height || width || Border || padding background-color || color || margin || padding || font-size || transition</td>
              </tr>
              
              <tr>
               <td> &lt;tr&gt;&lt;/tr&gt;</td>
               <td>Define una fila en una tabla</td>
-              <td rowspan="3">border || padding || background-color || text-align</td>
+              <td>border || padding || background-color || text-align || margin || border || bordeer-collapse || font-size</td>
              </tr>
              
              <tr>
-              <td>&lt;td&gt; &lt;/td&gt;</td>
+              <td>&lt;td&gt;&lt;/td&gt;</td>
               <td>Define una celda en una tabla</td>
+              <td>border || padding || background-color || text-align || margin || width || height || transition || text-align || font-size || font-family</td>
              </tr>
              
              <tr>
-              <td>&lt;th&gt; &lt;/ht&gt;</td>
+              <td>&lt;th&gt;&lt;/ht&gt;</td>
               <td>Define una celda de encabezado en una tabla</td>
+              <td>border || padding || background-color || text-align || margin || text-align || font-size</td>
              </tr>
              
         </table>
         <br>
     </section>
-   
+    
    <section>
+       <h2>
+            🌟LISTA DE ETIQUETAS DIRIGIDAS A OBJETOS
+        </h2>
+         
+           <!--COMIENZA TABLA-->
+         <table border="1" class="tablas">
+            <tr>
+                <td class=Color_etiqueta>ETIQUETAS</td>
+                <td class=Color_etiqueta>DEFINICIÓN</td>
+                <td class="Color_etiqueta">ATRIBUTOS</td>
+            </tr>
+            
+            <!--DEFINICION DE PROPIEDADES-->
+             <tr>
+              <td>&lt;link&gt;</td>
+              <td>enlaza a otros archivos (hoja de estilo, etc.)</td>
+              <td>href, rel, media, type, title</td>
+             </tr>
+             
+             <tr>
+              <td>&lt;style&gt;</td>
+              <td>hoja de estilo incluida en el documento</td>
+              <td>type, title</td>
+             </tr>
+             
+       </table>
+   </section>
+   <!--CSS TEXTO-->
+    <section>
        <h1> PROPIEDADES CSS</h1>
          <!-- La etiqueta img se utiliza para colocar una imagen-->
             <img src="img/csstexto.png" class="imgCsText" align="right">
@@ -389,7 +440,9 @@
              </tr>
            </table>
    </section>
-   <section>
+   
+   <!--OBJETOS-->
+    <section>
        
        <!--TITULO PROPIEDADES TEXTO-->
         <h2> 🌟LISTADO DE PROPIEDADES DIRIGIDAS A OBJETOS</h2>
@@ -421,35 +474,35 @@
             <tr>
                 <td rowspan="6" class="colorPropiedad">BORDES</td>
                 <td>Border</td>
-                <td>Establecer simultáneamente los cuatro bordes.</td>
+                <td>Establece simultáneamente los cuatro bordes.</td>
                 <td>border-color || border-width || border-style</td>
             </tr>
             
             <tr>
                 <td>Border-radius</td>
-                <td>Esquinas redondeadas</td>
+                <td>Establece esquinas redondeadas</td>
                 <td>porcentaje || distancia</td>
             </tr>
            
            <tr>
                 <td>Border-top</td>
-                <td>Borde superior</td>
+                <td>Establece un borde superior</td>
                 <td rowspan="3">border-color || border-width || border-style</td>
             </tr>
             
             <tr>
                 <td>Border-right</td>
-                <td>Borde derecho</td>
+                <td>Establece un borde derecho</td>
             </tr>
             
             <tr>
                 <td>Border-bottom</td>
-                <td>Borde izquierdo</td>
+                <td>Establece un borde izquierdo</td>
             </tr>
             
             <tr>
                 <td>Border-Color</td>
-                <td>Colores de los bordes</td>
+                <td>Establece colores de los bordes</td>
                 <td>color || transparent</td>
             </tr>
             
@@ -462,22 +515,22 @@
             
             <tr>
                 <td>margin-top</td>
-                <td>Margen exerior superior</td>
+                <td>Establece el margen exerior superior</td>
             </tr>
             
             <tr>
                 <td>margin-right</td>
-                <td>Margen exerior derecho</td>
+                <td>Establece el margen exerior derecho</td>
             </tr>
             
             <tr>
                 <td>Margin-bottom</td>
-                <td>Margen exerior inferior</td>
+                <td>Establece el margen exerior inferior</td>
             </tr>
             
             <tr>
                 <td>Margin-left</td>
-                <td>Margen exerior izquierdo</td>
+                <td>Establece el margen exterior izquierdo</td>
             </tr>
             
             <tr>
@@ -489,40 +542,40 @@
             
             <tr>
                 <td>Padding-top</td>
-                <td>Margen interior superior</td>
+                <td>Establece el margen interior superior</td>
             </tr>
             
             <tr>
                 <td>Padding-right</td>
-                <td>Margen interior derecho</td>
+                <td>Establece el margen interior derecho</td>
             </tr>
             
             <tr>
                 <td>Padding-bottom</td>
-                <td>Margen interior inferior</td>
+                <td>Establece el margen interior inferior</td>
             </tr>
             
             <tr>
                 <td>Padding-left</td>
-                <td>Margen interior izquierdo</td>
+                <td>Establece el margen interior izquierdo</td>
             </tr>
             
              <tr>
                  <td rowspan="3" class="colorPropiedad">FONDOS</td>
                 <td>Background-color</td>
-                <td>Color de fondo</td>
+                <td>Establece un color de fondo</td>
                 <td>transparent || color</td>
             </tr>
             
              <tr>
                 <td>Background-image</td>
-                <td>Imagen de fondo</td>
+                <td>Establce una imagen de fondo</td>
                 <td>url || none</td>
             </tr>
             
              <tr>
                 <td>Background-size</td>
-                <td>Tamaño de la imagen de fondo </td>
+                <td>Determina el tamaño de la imagen de fondo </td>
                 <td>auto || distancia || porcentaje || contain || cover</td>
             </tr>
             
@@ -530,44 +583,44 @@
             <tr>
                 <td rowspan="4" class="colorPropiedad">MODELO DE CAJA</td>
                 <td>Display</td>
-                <td>Tipo de caja</td>
+                <td>Establece el tipo de caja</td>
                 <td>none || block || inline || inline-block || inline-table || list-item || marker || run-in || table || table-caption || table-cell || table-column || table-row || flex || inline-flex</td>
             </tr>
             
             <tr>
                 <td>box-sizing</td>
-                <td>Posición del borde y márgenes</td>
+                <td>Determia la posición del borde y márgenes</td>
                 <td>border-box || contnt-box</td>
             </tr>
             
             <tr>
                 <td>width</td>
-                <td>Anchura</td>
+                <td>Establece la anchura</td>
                 <td>auto || distancia || porcentaje</td>
             </tr>
             
             <tr>
                 <td>Height</td>
-                <td>Altura</td>
+                <td>Establece la altura</td>
                 <td>auto || distncia || porcentaje</td>
             </tr>
             
             <tr>
                 <td rowspan="5" class="colorPropiedad">CAJAS FLEXIBLES</td>
                 <td>display</td>
-                <td>Tipo de caja</td>
+                <td>Determina el tipo de caja</td>
                 <td>flex || inline-flex</td>
             </tr>
             
             <tr>
                 <td>flex-direction</td>
-                <td>Dirección</td>
+                <td>Determina la dirección</td>
                 <td>row || row-reverse || column || column-reverse</td>
             </tr>
                
             <tr>
                 <td>flex-wrap</td>
-                <td>Ajuste de linea</td>
+                <td>Establece un ajuste de linea</td>
                 <td>wrap || no-wrap || wrap-reverse</td>
             </tr>
                
@@ -579,7 +632,7 @@
                
             <tr>
                 <td>justify-content</td>
-                <td>Alineación</td>
+                <td>Determina la alineación</td>
                 <td>flex-start || flex-end || center || baseline || stretch</td>
             </tr>
                
@@ -590,8 +643,9 @@
            <!-- La etiqueta img se utiliza para colocar una imagen-->
             <img src="img/propiedadescss.png" class="imgCss" align="middle">
     </section>
+
   
-     <section class="flexBox">
+    <section class="flexBox">
          <h1 class="tituloFlex">FLEX-BOX</h1>
          <br>
          <p>
