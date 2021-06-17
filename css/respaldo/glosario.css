@@ -3,18 +3,6 @@
     padding:0;
     font-family: sans-serif;
 } 
-
-.btn_1{
-    padding: 10px 20px; 0px; 0px;
-    background-color: background-color: #79f0b0;
-background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
-background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
-background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
-
-    border-radius: 10px;
-    border: 1px solid black;
-    color: black;
-}
 .btn_1:hover{
    background-color: #54b682;
 background-image: -webkit-linear-gradient(bottom left, #54b682 0%, #dfdc6a 100%);
@@ -25,6 +13,18 @@ background-image: linear-gradient(to top right, #54b682 0%, #dfdc6a 100%);
     background-color: aquamarine;*/
     color: #fff;
     transition: 0.3s;
+}
+.btn_1{
+    padding: 10px 20px; 0px; 0px;
+    background-color: background-color: #79f0b0;
+background-image: -webkit-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: -o-linear-gradient(bottom left, #79f0b0 0%, #eeeb74 100%);
+background-image: linear-gradient(to top right, #79f0b0 0%, #eeeb74 100%);
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    
 }
 .btn_2{
     padding: 10px;
