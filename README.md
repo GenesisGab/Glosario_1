@@ -1,3 +1,13 @@
-PORTAFOLIO III PERIODO
+<img width="100px" src="https://static.wixstatic.com/media/d1b317_30d85a06c73e4bc7bf0952829a1cddb1~mv1.png/v1/crop/x_0,y_4,w_775,h_349/fill/w_408,h_172,al_c,q_85,usm_0.66_1.00_0.01/d1b317_30d85a06c73e4bc7bf0952829a1cddb1~mv1.webp">
+<h1 align= "center">
+🔮PORTAFOLIO III PERIODO🔮
+</h1>
+### 2021 
+<img width="500px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg">
+### INFORMACIÓN
+- Colegio Santa Catalina de Laboure
+- Génesis Gabriel Subuyuj Ramírez
+- Laboratorio 1
+- Profesor Jossue Emmanuel Fuentes
 
 
