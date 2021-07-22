@@ -5,7 +5,7 @@
 <h2 align="center">
 2021
 </h2>
-<img width="700px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg" align="center">
+<img width="700px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg">
 
 ------------
 
