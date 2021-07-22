@@ -2,13 +2,18 @@
 <h1 align= "center">
 🔮PORTAFOLIO III PERIODO🔮
 </h1>
+<h2 align="center">
+2021
+</h2>
+<img width="700px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg">
 
-### 2021 
-<img width="500px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg">
+------------
 
 ### INFORMACIÓN
+
 - Colegio Santa Catalina de Laboure
 - Génesis Gabriel Subuyuj Ramírez
+- IV Bachillerato en Ciencias y letras con Orientación en Computación
 - Laboratorio 1
 - Profesor Jossue Emmanuel Fuentes
 
