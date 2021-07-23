@@ -43,5 +43,4 @@ https://genesisgab.github.io/Glosario_1/
 
 ------------
 ## 📔 MIS OBJETIVOS FUTUROS
-
 [========]
