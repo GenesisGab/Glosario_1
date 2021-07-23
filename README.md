@@ -21,11 +21,15 @@
 
 ## ÍNDICE
 - [Portada](https://genesisgab.github.io/Glosario_1/ "Portada")
+
  - Link a mi perfil en la star up
  - Link a mi repositorio en GitHub
+ 
 - [Glosario](https://genesisgab.github.io/Glosario_1/glosario.html "Glosario")
+
  - TIPOS DE ETIQUETAS
  - ETIQUETAS HTML
+ 
 Lista De Etiquetas Dirigidas A Formularios
 Listado De Etiquetas Dirigidas A Imagenes
 Lista De Etiquetas Dirigidas A Maquetacion
