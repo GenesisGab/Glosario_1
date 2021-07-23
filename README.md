@@ -11,12 +11,12 @@
 
 ### INFORMACIÓN
 
-- Colegio Santa Catalina de Laboure
+#### Colegio Santa Catalina de Laboure
+
 - Génesis Gabriel Subuyuj Ramírez
 - IV Bachillerato en Ciencias y letras con Orientación en Computación
 - Laboratorio 1
 - Profesor Jossue Emmanuel Fuentes
-
 ------------
 
 ## ÍNDICE
