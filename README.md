@@ -20,26 +20,39 @@
 ------------
 
 ## ÍNDICE
+- [Portada](https://genesisgab.github.io/Glosario_1/ "Portada")
+ - Link a mi perfil en la star up
+ - Link a mi repositorio en GitHub
+- [Glosario](https://genesisgab.github.io/Glosario_1/glosario.html "Glosario")
+ - TIPOS DE ETIQUETAS
+ - ETIQUETAS HTML
+Lista De Etiquetas Dirigidas A Formularios
+Listado De Etiquetas Dirigidas A Imagenes
+Lista De Etiquetas Dirigidas A Maquetacion
+Lista De Etiquetas Dirigidas A Listas
+Lista De Etiquetas Dirigidas A Tablas
+Lista De Etiquetas Dirigidas A Objetos
 
-|  Contenido |   |
-| ------------ | ------------ |
-|   | .. |
+ - PROPIEDADES CSS
+Listado De Propiedades Css Dirigidas A Texto
+Listado De Propiedades Dirigidas A Objetos
+ - FLEX-BOX
+
 
 ------------
-
-
 ## 🌠 OBJETIVOS 
 
 | 🌟 Saber | 🌟Saber Hacer  | 🌟Saber ser y estar |
 | :------------: | :------------: | :------------: |
 |    |   |  .. |
-|   |   | ..  |
 
 ------------
+
 ## DOCUMENTACIÓN
 
 ######  Link de mi pagina en donde encontraras un listado de las etiquetas HTML y CSS:
 https://genesisgab.github.io/Glosario_1/
 
 ------------
+
 ## 📔 MIS OBJETIVOS FUTUROS
