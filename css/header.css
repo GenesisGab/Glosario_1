@@ -21,7 +21,7 @@ header{
     flex-direction:row;
     justify-content:space-between;
     align-items: center;
-    flex-wrap:nowrap;    
+    flex-wrap: nowrap;    
 }
 
 .nav{

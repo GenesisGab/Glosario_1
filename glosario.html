@@ -3,13 +3,14 @@
 
         <head>
             <meta charset="utf-8">
-            <title>
-                CONSTRUCCION HTML Y CSS
-            </title>
-    
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
             <!--CONEXION CON CSS-->
             <link rel="stylesheet" href="css/glosario.css">
             <link rel="stylesheet" href="css/header.css">        
+            
+            <title>CONSTRUCCION HTML Y CSS</title>
         </head>
 
 <body>
@@ -82,8 +83,6 @@
     <!--TEXTO-->
     <section class="sec_listados">
         <h1>ETIQUETAS HTML</h1>
-         <!-- imagen -->
-        <img src="img/texto.png" class="imgTex" align="right">
             
            <br>
         <h2>
@@ -91,7 +90,7 @@
         </h2>
        
         <!--COMIENZA TABLA-->       
-         <table border="1" class="tablas">
+           <table border="1" class="tablas">
             <tr>
                 <td class=Color_etiqueta>ETIQUETAS</td>
                 <td class=Color_etiqueta>DEFINICIÓN</td>
@@ -100,46 +99,50 @@
             
             <!--DEFINICION DE PROPIEDADES-->
              <tr>
-                <td>&lt;a&gt; &lt;/a&gt;</td>
+                <td>&lt;a&gt;&lt;/a&gt;</td>
                 <td>Se utiliza para incluir enlaces hacia otras páginas</td>
-                <td>color || text-decoration || font-size || font-family</td>
+                <td>color, text-decoration, font-size, font-family</td>
              </tr>
              
              <tr>
-                <td>&lt;br&gt; &lt;/br&gt;</td>
+                <td>&lt;br&gt;&lt;/br&gt;</td>
                 <td>Se utiliza para dar un salto de linea</td>
-                <td>________________</td>
+                <td>----------</td>
              </tr>
              
               <tr>
                 <td>&lt;h1&gt;&lt;/h1&gt;&lt;h6&gt;&lt;/h6&gt;
                 </td>
-                <td>Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</td>
-                <td>color || font-size || background-color  || text-align text-decoration || font-family</td>
+                <td>Crea un encabezado o título de primer a sexto nivel para una sección del documento</td>
+                <td>color, font-size, background-color, text-align text-decoration, font-family</td>
              </tr>
              
               <tr>
-                  <td>&lt;p&gt; &lt;/p&gt;</td>
+                  <td>&lt;p&gt;&lt;/p&gt;</td>
                   <td>Se utiliza para colocar un parrafo</td>
-                  <td>color || font-size || background-color  || text-align text-decoration || font-family</td>
+                  <td>color, font-size, background-color, text-align text-decoration, font-family</td>
              </tr>
              
              <tr>
-                <td>&lt;title&gt; &lt;/title&gt;</td>
+                <td>&lt;title&gt;&lt;/title&gt;</td>
                 <td>Define un titulo en el documento</td>
-                <td>color || font-size || background-color  || text-align text-decoration || font-family</td>
+                <td>color, font-size, background-color, text-align text-decoration, font-family</td>
              </tr>
+                  
            </table>
-                   
+           <br>
+          <div align="center">  
+                 <td colspan="3" class="tdImg"> 
+                      <img src="img/texto.png" class="imgTex"> 
+                  </td>
+          </div>
+        
     </section>
      
     <!--FORMULARIOS-->  
     <section class="sec_listados">
-          
-           <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/formularios.png" class="img1" align="right">
-           
-             <h2>  🌟LISTA DE ETIQUETAS DIRIGIDAS A FORMULARIOS</h2>
+                 
+       <h2>  🌟LISTA DE ETIQUETAS DIRIGIDAS A FORMULARIOS</h2>
            
            <!--COMIENZA TABLA-->
          <table border="1" class="tablas4">
@@ -149,8 +152,8 @@
                 <td class="Color_etiqueta">PROPIEDADES</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
-             <tr>
+       
+            <tr>
               <td>&lt;form&gt;&lt;/form&gt;</td>
               <td>Define un formulario</td>
               <td>margin || padding || background-color</td>
@@ -174,67 +177,78 @@
               <td>margin || padding || width || height || bordeer || font-size font-family || background-color</td>
              </tr>
            </table>
+           
+           <br>
+           <div align="center">
+               <td class="tdImg">
+                    <img src="img/formularios.png" class="img1">
+               </td>
+           </div>
+           
     </section>
     
     <!--IMAGENES-->
-    <section class="sec_listados">
-       
-        <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/imagen.png" class="img_2" align="right">
-                
+    <section class="pruebix">
            
         <h2>
              🌟LISTADO DE ETIQUETAS DIRIGIDAS A IMAGENES
         </h2>
     
          <!--COMIENZA TABLA-->
-         <table border="1" class="tablas">
+       <table border="1" class="tablas3">
             <tr>
-                <td class=Color_etiqueta>ETIQUETAS</td>
-                <td class=Color_etiqueta>DEFINICIÓN</td>
+                <td class="Color_etiqueta">ETIQUETAS</td>
+                <td class="Color_etiqueta">DEFINICIÓN</td>
                 <td class="Color_etiqueta">PROPIEDADES</td>
-                <td class="Color_etiqueta">atributos</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
-             <tr>
-                 <td>&lt;img&gt; &lt;/img&gt;</td>
-                 <td>Coloca una imagen</td>
-                 <td>width || height || border || border-radius || margin || padding</td>
-                 <td>alt, src, usemap, ismap, width, height</td>
-             </tr>
+           <tr>
+               <td rowspan="3">&lt;img&gt;&lt;/img&gt;</td>
+                <td rowspan="3">Coloca una imagen</td>
+                <td>width, height, border, border-radius, margin, padding</td>
+            </tr>
+           <tr>
+               <td class="colorPropiedad">ATRIBUTOS</td>
+           </tr>
+           
+           <tr>
+                <td>alt, src, usemap, ismap, width, height</td>
+           </tr>
         </table>
+        
+        <br>
+        <div align="center">
+           <td class="tdImg">
+               <img src="img/imagen.png" class="img_2"> 
+           </td>
+        </div>
+        
     </section>
     
     <!--MAQUETACIÓN-->
     <section class="sec_listados">
         
-        <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/maquetacionn.png" class="imgMaq" align="right">   
-           
         <h2>
              🌟LISTA DE ETIQUETAS DIRIGIDAS A MAQUETACION
         </h2>
          
           <!--COMIENZA TABLA-->
-         <table border="1" class="tablas3">
+         <table border="1" class="tablas">
             <tr>
                 <td class=Color_etiqueta>ETIQUETAS</td>
                 <td class=Color_etiqueta>DEFINICIÓN</td>
                 <td class="Color_etiqueta">PROPIEDADES</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
-            
              <tr>
                  <td>&lt;DOCTYPE&gt;</td>
                  <td>Define el cuerpo del documento</td>
-                 <td>_________________________________</td>
+                 <td>__________</td>
              </tr> 
              <tr>
                  <td>&lt;head&gt;&lt;/head&gt;</td>
                  <td>Provee información general acerca del documento</td>
-                 <td>__________________________________</td>
+                 <td>__________</td>
              </tr>
             <tr>
                  <td>&lt;body&gt;&lt;/body&gt;</td>
@@ -252,7 +266,7 @@
              <tr>
                  <td>&lt;footer&gt;&lt;/footer&gt;</td>
                  <td>Define el pie de página de un documento</td>
-                 <td>width || height || margin || padding || display ||
+                 <td>width || height || margin || padding || display |
                   justify-content || flex-direction || background-color</td>
              </tr>
              
@@ -275,15 +289,18 @@
                  <td>Agrupa una serie de enlaces pertenecientes a la web.</td>
                  <td>list-style || color || margin || padding </td>
              </tr>
-             
         </table>
+        <br>
+        <div align="center">
+            <td class="tdImg">
+                 <img src="img/maquetacionn.png" class="imgMaq">
+            </td>
+        </div>
+        
     </section>
     
     <!--LISTAS-->
     <section class="sec_listados">
-        
-         <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/listas.png" class="imgList" align="right">     
            
         <h2>
              🌟LISTA DE ETIQUETAS DIRIGIDAS A LISTAS
@@ -296,8 +313,7 @@
                 <td class=Color_etiqueta>DEFINICIÓN</td>
                 <td class="Color_etiqueta" >PROPIEDADES</td>
             </tr>
-            
-            <!--DEFINICION DE PROPIEDADES-->
+          
              <tr>
                  <td>&lt;ol&gt; &lt;/ol&gt;</td>
                  <td> Define una lista ordenada</td>
@@ -317,58 +333,79 @@
               <td>list-style || color || text-align || font-family || font-size</td>
              </tr>
         </table>
+        
         <br>
-    
+        <div align="center">
+            <td class="tdImg">
+                 <img src="img/listas.png" class="imgList"> 
+            </td>
+        </div>
         
     </section>
     
     <!--TABLAS-->
     <section class="sec_listados">
-       
-        <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/tablas.png" class="imgTabla" align="right">     
-            
+ 
          <h2>
             🌟LISTA DE ETIQUETAS DIRIGIDAS A TABLAS
         </h2>
          
-           <!--COMIENZA TABLA-->
-         <table border="1" class="tablas">
+           <!--COMIENZA TABLA- era la clase de tablas-->
+         <table border="1" class="tablas6">
             <tr>
                 <td class=Color_etiqueta>ETIQUETAS</td>
                 <td class=Color_etiqueta>DEFINICIÓN</td>
                 <td class="Color_etiqueta">PROPIEDADES</td>
+                 <td class="Color_etiqueta">ATRIBUTOS</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
              <tr>
-              <td>&lt;table&gt;&lt;/table&gt;</td>
-              <td>Define una tabla</td>
-              <td>text-align || height || width || Border || padding background-color || color || margin || padding || font-size || transition</td>
+                  <td>&lt;table&gt;&lt;/table&gt;</td>
+                  <td>Define una tabla</td>
+                  <td>text-align || height || width || Border || padding background-color || color || margin || padding || font-size || transition</td>
+                  <td>border</td>
+             </tr>
+                 
+             <tr>
+                  <td> &lt;tr&gt;&lt;/tr&gt;</td>
+                  <td>Define una fila en una tabla</td>
+                  <td>border || padding || background-color || text-align || margin || border || border-collapse || font-size</td>
+                  <td>
+
+                  </td>
              </tr>
              
              <tr>
-              <td> &lt;tr&gt;&lt;/tr&gt;</td>
-              <td>Define una fila en una tabla</td>
-              <td>border || padding || background-color || text-align || margin || border || border-collapse || font-size</td>
+                  <td>&lt;td&gt;&lt;/td&gt;</td>
+                  <td>Define una celda en una tabla</td>
+                  <td>border || padding || background-color || text-align || margin || width || height || transition || text-align || font-size || font-family</td>
+                  <td>
+                      colspan, rowspan
+                  </td>
              </tr>
              
              <tr>
-              <td>&lt;td&gt;&lt;/td&gt;</td>
-              <td>Define una celda en una tabla</td>
-              <td>border || padding || background-color || text-align || margin || width || height || transition || text-align || font-size || font-family</td>
+                  <td>&lt;th&gt;&lt;/th&gt;</td>
+                  <td>Define una celda de encabezado en una tabla</td>
+                  <td>border || padding || background-color || text-align || margin || text-align || font-size</td>
+              <td>
+                  
+              </td>
              </tr>
              
-             <tr>
-              <td>&lt;th&gt;&lt;/th&gt;</td>
-              <td>Define una celda de encabezado en una tabla</td>
-              <td>border || padding || background-color || text-align || margin || text-align || font-size</td>
-             </tr>
              
         </table>
+        
         <br>
+        <div align="center">
+            <td class="tdImg">
+                <img src="img/tablas.png" class="imgTabla">  
+            </td>
+        </div>
+        
     </section>
     
+    <!--OBJETOS-->
    <section>
        <h2>
             🌟LISTA DE ETIQUETAS DIRIGIDAS A OBJETOS
@@ -382,7 +419,6 @@
                 <td class="Color_etiqueta">ATRIBUTOS</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
              <tr>
               <td>&lt;link&gt;</td>
               <td>enlaza a otros archivos (hoja de estilo, etc.)</td>
@@ -400,15 +436,19 @@
               <td>Metainformación sobre el documento</td>
               <td>name, content, charset</td>
              </tr>
-             
        </table>
+       <br>
+       <div align="center">
+           <td>
+               <img src="img/ImgObjetos.jpg" class="imObjetH">
+           </td>
+       </div>
+       
    </section>
    <!--CSS TEXTO-->
     <section>
        <h1> PROPIEDADES CSS</h1>
-         <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/csstexto.png" class="imgCsText" align="right">
-       
+        
         <br>  
          <!--TITULO PROPIEDADES TEXTO-->
         <h2> 🌟LISTADO DE PROPIEDADES CSS DIRIGIDAS A TEXTO</h2>
@@ -421,7 +461,7 @@
                 <td class="Color_etiqueta">VALORES</td>
             </tr>
             
-            <!--DEFINICION DE PROPIEDADES-->
+           
              <tr>
               <td>text-align</td>
               <td>Alinea el texto</td>
@@ -458,7 +498,16 @@
                  <td>número</td>
              </tr>
            </table>
+           <br>
+           <div align="center">
+               <td class="tdImg">
+                   <img src="img/csstexto.png" class="imgCsText"> 
+               </td>
+           </div>
+           
    </section>
+   
+  
    
    <!--OBJETOS-->
     <section>
@@ -468,18 +517,22 @@
         
           <!--COMIENZA TABLA-->
         <table border="1" class="tablas2">
-           
+       
            <!--TITULO TABLA-->
-            <tr class="titulo_1">
-                <td class=Color_etiqueta></td>
+          <tr class="titulo_1">
                 <td class=Color_etiqueta>PROPIEDADES</td>
                 <td class=Color_etiqueta>DEFINICIÓN</td>
                 <td class="Color_etiqueta">VALORES</td>
             </tr>
-            
+    
             <!--DEFINICION DE PROPIEDADES-->
             <tr>
-               <td rowspan="2" class="colorPropiedad">PROPIEDADES PRINCIPALES</td>
+                <td colspan="3" class="colorPropiedad">
+                    PROPIEDADES PRINCIPALES
+                </td>
+            </tr>
+            
+            <tr>
                 <td>Height</td>
                 <td>Define la altura de la caja.</td>
                 <td rowspan="2">auto || porcentajes || distancia</td>
@@ -487,11 +540,16 @@
             
             <tr>
                 <td>Width</td>
-                <td>Define el ancho de la caja.</td>
+                <td>Ancho de la caja.</td>
             </tr>
             
             <tr>
-                <td rowspan="6" class="colorPropiedad">BORDES</td>
+                <td colspan="3" class="colorPropiedad">
+                    BORDES
+                </td>
+            </tr>
+            
+            <tr>
                 <td>Border</td>
                 <td>Establece simultáneamente los cuatro bordes.</td>
                 <td>border-color || border-width || border-style</td>
@@ -526,7 +584,12 @@
             </tr>
             
             <tr>
-                <td rowspan="5" class="colorPropiedad">MARGENES</td>
+                <td colspan="3" class="colorPropiedad">
+                    MARGENES
+                </td>
+            </tr>
+            
+            <tr>
                 <td>margin</td>
                 <td>Establece el margen para los cuatro lados.</td>
                 <td rowspan="5">auto || distancia || porcentaje || número</td>
@@ -553,7 +616,12 @@
             </tr>
             
             <tr>
-                <td rowspan="5" class="colorPropiedad">MARGEN INTERIOR</td>
+                <td colspan="3" class="colorPropiedad">
+                    MARGEN INTERIOR
+                </td>
+            </tr>
+            
+            <tr>
                 <td>Padding</td>
                 <td>Cuatro márgenes interiores simultáneamente</td>
                 <td rowspan="5">numero || porcentaje || auto || distancia</td>
@@ -579,8 +647,13 @@
                 <td>Establece el margen interior izquierdo</td>
             </tr>
             
+            <tr>
+                <td colspan="3" class="colorPropiedad">
+                    FONDOS
+                </td>
+            </tr>
+            
              <tr>
-                 <td rowspan="3" class="colorPropiedad">FONDOS</td>
                 <td>Background-color</td>
                 <td>Establece un color de fondo</td>
                 <td>transparent || color</td>
@@ -598,9 +671,13 @@
                 <td>auto || distancia || porcentaje || contain || cover</td>
             </tr>
             
+            <tr>
+                <td colspan="3" class="colorPropiedad">
+                    MODELO DE CAJA
+                </td>
+            </tr>
             
             <tr>
-                <td rowspan="4" class="colorPropiedad">MODELO DE CAJA</td>
                 <td>Display</td>
                 <td>Establece el tipo de caja</td>
                 <td>none || block || inline || inline-block || inline-table || list-item || marker || run-in || table || table-caption || table-cell || table-column || table-row || flex || inline-flex</td>
@@ -611,21 +688,41 @@
                 <td>Determia la posición del borde y márgenes</td>
                 <td>border-box || contnt-box</td>
             </tr>
-            
+               
+        <!--TERMINA TABLA-->  
+       </table>
+           <br>
+           <div align="center">
+               <td class="tdImg">
+                    <img src="img/propiedadescss.png" class="imgCss">
+               </td>
+           </div>
+       
+    </section>
+
+  
+    <section class="flexBox">
+         <h1 class="tituloFlex">FLEX-BOX</h1>
+         <br>
+         <p class="tituloFlex">
+             Flex nos permite maquetar nuestras páginas web de una manera mucho mas fácil de lo que se hacía con la forma tradicional. Se llama Flex porque tenemos un contenedor, llamado contenedor Flex, que es el elemento que contiene la propiedad display: flex.
+         </p>
+         <br>
+         <p class="tituloFlex"> 
+             Desde ese contenedor vamos a poder especificar la alineación de los elementos que hay dento, el tamaño de los elementos que contienen y distribuir el espacio restante que hay entre los elementos del contenedor Flex, y todo esto en una sola dirección, ya sea horizontal o vertical.
+         </p>
+         <br>
+         
+           <!--COMIENZA TABLA-->
+         <table border="1" class="tablas5">
             <tr>
-                <td>width</td>
-                <td>Establece la anchura</td>
-                <td>auto || distancia || porcentaje</td>
+                <td class=Color_etiqueta>PROPIEDADES</td>
+                <td class=Color_etiqueta>DEFINICIÓN</td>
+                <td class="Color_etiqueta">ATRIBUTOS</td>
             </tr>
-            
-            <tr>
-                <td>Height</td>
-                <td>Establece la altura</td>
-                <td>auto || distncia || porcentaje</td>
-            </tr>
-            
-            <tr>
-                <td rowspan="5" class="colorPropiedad">CAJAS FLEXIBLES</td>
+        
+             <tr>
+                
                 <td>display</td>
                 <td>Determina el tipo de caja</td>
                 <td>flex || inline-flex</td>
@@ -653,34 +750,13 @@
                 <td>justify-content</td>
                 <td>Determina la alineación</td>
                 <td>flex-start || flex-end || center || baseline || stretch</td>
-            </tr>
-               
-   
-        <!--TERMINA TABLA-->  
-       </table>
-           <br>
-           <!-- La etiqueta img se utiliza para colocar una imagen-->
-            <img src="img/propiedadescss.png" class="imgCss" align="middle">
-    </section>
-
-  
-    <section class="flexBox">
-         <h1 class="tituloFlex">FLEX-BOX</h1>
-         <br>
-         <p class="tituloFlex">
-             Flex nos permite maquetar nuestras páginas web de una manera mucho mas fácil de lo que se hacía con la forma tradicional. Se llama Flex porque tenemos un contenedor, llamado contenedor Flex, que es el elemento que contiene la propiedad display: flex.
-         </p>
-         <br>
-         <p class="tituloFlex"> 
-             Desde ese contenedor vamos a poder especificar la alineación de los elementos que hay dento, el tamaño de los elementos que contienen y distribuir el espacio restante que hay entre los elementos del contenedor Flex, y todo esto en una sola dirección, ya sea horizontal o vertical.
-         </p>
-         <br>
-     <!--    <div cajaFlex1>
-             <img src="img/ejemplo%20de%20flexbox.png" class="imgFlex">
+            </tr>    
+        </table>
+        <br>
+        <br>
+      <div align="center">
+             <img src="img/ejemplo%20de%20flexbox.png" class="imgFlex1">
          </div>
-         -->
-      
-
          
      </section> 
  
