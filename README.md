@@ -24,3 +24,19 @@
 |  Contenido |   |
 | ------------ | ------------ |
 |   | .. |
+
+------------
+
+
+## 🌠 OBJETIVOS 
+
+| 🌟 Saber | 🌟Saber Hacer  | 🌟Saber ser y estar |
+| :------------: | :------------: | :------------: |
+|    |   |  .. |
+|   |   | ..  |
+
+------------
+## DOCUMENTACIÓN
+
+######  Link de mi pagina en donde encontraras un listado de las etiquetas HTML y CSS:
+https://genesisgab.github.io/Glosario_1/
