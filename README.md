@@ -33,11 +33,11 @@
    - Lista De Etiquetas Dirigidas A Tablas
    - Lista De Etiquetas Dirigidas A Objetos
 
- - PROPIEDADES CSS
+   - PROPIEDADES CSS
    - Listado De Propiedades Css Dirigidas A Texto
-   - Listado De Propiedades Dirigidas A Objetos
+       - Listado De Propiedades Dirigidas A Objetos
 
- - FLEX-BOX
+   - FLEX-BOX
 
 
 
