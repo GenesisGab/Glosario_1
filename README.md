@@ -6,6 +6,7 @@
 2021
 </h2>
 <img width="1000px" src="https://acumbamail.com/blog/wp-content/uploads/2014/10/maquetacion-email-html.png">
+
 ------------
 
 ### INFORMACIÓN
