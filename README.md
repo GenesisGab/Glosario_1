@@ -68,6 +68,9 @@ https://genesisgab.github.io/Glosario_1/
 | **3. PROPÓSITO** |
 | Trabajar con esmero y dedicacion para que mi portafolio cumpla con lo que se requiere y sea de utilidad para mi y para otras personas que se interesen en aprender las etiquetas html y css.  |
 
+
+
+
 [========]
 
 
