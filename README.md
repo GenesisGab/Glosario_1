@@ -5,8 +5,7 @@
 <h2 align="center">
 2021
 </h2>
-<img width="1000px" src="https://definicion.de/wp-content/uploads/2008/03/computadora-1.jpg">
-
+<img width="1000px" src="https://acumbamail.com/blog/wp-content/uploads/2014/10/maquetacion-email-html.png">
 ------------
 
 ### INFORMACIÓN
@@ -46,7 +45,7 @@
 
 | 🌟 Saber | 🌟Saber Hacer  | 🌟Saber ser y estar |
 | :------------: | :------------: | :------------: |
-|    |   |  .. |
+|  Como maquetar y tener un buena estructura en mi pagina web con todos los aspectos que se requieran  |  Quiero lograr aprender a como elaborar y estructurar una pagina web correctamente |  Lograr aprenderme la mayoria de las etiquetas y tener una buena estructura en mi pagina we y que sea de utilidad para mi y varias personas |
 
 ------------
 
@@ -54,7 +53,3 @@
 
 ######  Link de mi pagina en donde encontraras un listado de las etiquetas HTML y CSS:
 https://genesisgab.github.io/Glosario_1/
-
-------------
-
-## 📔 MIS OBJETIVOS FUTUROS
