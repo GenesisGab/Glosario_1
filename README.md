@@ -24,6 +24,7 @@
 - Portada
 
 - Anteportada
+- Índice
 
 - Objetivos
 - [Home Page](https://genesisgab.github.io/Glosario_1/ "Portada")
