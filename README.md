@@ -26,6 +26,7 @@
 - Anteportada
 
 - Objetivos
+- Glosario HTML y CSS
 
 - [Home Page](https://genesisgab.github.io/Glosario_1/ "Portada")
   - Banner de introducción
