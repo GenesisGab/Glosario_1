@@ -26,8 +26,6 @@
 - Anteportada
 
 - Objetivos
-- Glosario HTML y CSS
-
 - [Home Page](https://genesisgab.github.io/Glosario_1/ "Portada")
   - Banner de introducción
   - [Boton de mi perfil en la star up](https://jefuentes80.github.io/starup_scl/iv_computacion/GenesisSubuyuj.html "Link a mi perfil en la star up")
