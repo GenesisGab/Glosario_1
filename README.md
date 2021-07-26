@@ -9,7 +9,7 @@
 
 ------------
 
-### INFORMACIÓN
+### ANTEPORTADA
 
 #### Colegio Santa Catalina de Laboure
 
@@ -21,9 +21,16 @@
 ------------
 
 ## ÍNDICE
-- [Portada](https://genesisgab.github.io/Glosario_1/ "Portada")
-  - [Link a mi perfil en la star up](https://jefuentes80.github.io/starup_scl/iv_computacion/GenesisSubuyuj.html "Link a mi perfil en la star up")
-  - [Link a mi repositorio en GitHub](https://github.com/GenesisGab/Glosario_1 "Link a mi repositorio en GitHub")
+- Portada
+
+- Anteportada
+
+- Objetivos
+
+- [Home Page](https://genesisgab.github.io/Glosario_1/ "Portada")
+  - Banner que contiene una leyenda
+  - [Boton de mi perfil en la star up](https://jefuentes80.github.io/starup_scl/iv_computacion/GenesisSubuyuj.html "Link a mi perfil en la star up")
+  - [Boton de mi repositorio en GitHub](https://github.com/GenesisGab/Glosario_1 "Link a mi repositorio en GitHub")
 - [Glosario](https://genesisgab.github.io/Glosario_1/glosario.html "Glosario")
   - TIPOS DE ETIQUETAS
   - ETIQUETAS HTML
@@ -70,7 +77,5 @@ https://genesisgab.github.io/Glosario_1/
 
 
 ------------
-
-
 
 
