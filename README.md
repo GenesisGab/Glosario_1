@@ -48,8 +48,16 @@
    - FLEX-BOX
 
 
+------------
+
+## 🌠 OBJETIVOS 
+
+| 🌟 Saber | 🌟Saber Hacer  | 🌟Saber ser y estar |
+| :------------: | :------------: | :------------: |
+|  Como maquetar y tener un buena estructura en mi pagina web con todos los aspectos que se requieran  |  Quiero lograr aprender a como elaborar y estructurar una pagina web correctamente |  Lograr aprenderme la mayoria de las etiquetas y tener una buena estructura en mi pagina we y que sea de utilidad para mi y varias personas |
 
 ------------
+
 
 
 
