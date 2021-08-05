@@ -58,6 +58,24 @@
 
 ------------
 
+## DOCUMENTACIÓN
 
+######  Link de mi pagina en donde encontraras un listado de las etiquetas HTML y CSS:
+https://genesisgab.github.io/Glosario_1/
+
+------------
+
+## 📔 MIS OBJETIVOS FUTUROS
+
+|  1. ORGANIZACIÓN |
+| :------------ |
+| Cumplir con lo que se me solicite en mi portafolio, y tener una buena organizacion para entregar con esmero mis trabajos. |
+ | *2. INVESTIGACIÓN*   |
+|  Consultar y resolver mis dudas con respecto a los temas que se van a desarrollar y asi cumplir con lo adecuadamente en mi portafolio. |
+| *3. PROPÓSITO* |
+| Trabajar con esmero y dedicacion para que mi portafolio cumpla con lo que se requiere y sea de utilidad para mi y para otras personas que se interesen en aprender las etiquetas html y css.  |
+
+
+------------
 
 
